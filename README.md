@@ -4,7 +4,7 @@ An individual urban data science and machine learning coursework project complet
 
 The project uses a real public dataset containing **266,862 reported Chicago crime incidents from 2017**. It demonstrates an end-to-end analytical workflow involving data inspection, cleaning, feature engineering, exploratory visualization, classification, cross-validation, and model evaluation.
 
-<!-- Screenshot: Crime frequency by hour -->
+![Number of crimes by hour in the 2017 Chicago crime extract](assets/crime-by-hour.png)
 
 ## Project objectives
 
@@ -34,9 +34,9 @@ The dataset includes incident dates, crime categories, location descriptions, ar
 8. Tuned Decision Tree and Random Forest classifiers with cross-validation.
 9. Evaluated the models using classification reports and confusion matrices.
 
-<!-- Screenshot: Crime frequency by primary type -->
+![Number of crimes by primary crime type](assets/crime-by-primary-type.png)
 
-<!-- Screenshot: Arrest versus non-arrest by crime type -->
+![Arrest and non-arrest counts by crime type](assets/arrest-by-crime-type.png)
 
 ## Selected findings
 
@@ -46,8 +46,6 @@ The dataset includes incident dates, crime categories, location descriptions, ar
 - Crime-category prediction was not convincing, indicating that the selected temporal and geographic features did not adequately distinguish among crime categories.
 
 The project reports both the models' comparative strengths and the areas where their predictions were less effective.
-
-<!-- Screenshot: Decision Tree and Random Forest arrest confusion matrices -->
 
 ## Technical context
 
